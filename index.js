@@ -21,6 +21,7 @@ function nestedTarget(){
   return document.querySelector('#nested .target');
 
 }
+<<<<<<< HEAD
 function increaseRankBy(n){
   const li = document.getElementById('app').querySelectorAll('ul.ranked-list li');
   for(var i = 0; i< li.length; i++){
@@ -30,3 +31,5 @@ function increaseRankBy(n){
 function deepestChild(){
 return document.querySelector('#grand-node div div div div')
 }
+=======
+>>>>>>> f4fe860e34e4faa2d4c48060edd9e9459e53da37
